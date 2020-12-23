@@ -19,6 +19,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>core</string>
 			</array>
 			<key>description</key>
 			<string>Collaborative communication app.</string>

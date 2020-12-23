@@ -19,9 +19,11 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>tc_dev</string>
+				<string>tc_prod</string>
 			</array>
 			<key>description</key>
-			<string>Use your iPhone's camera without anyone else knowing.</string>
+			<string>Dialpad soft phone</string>
 			<key>developer</key>
 			<string>Dialpad, Inc.</string>
 			<key>display_name</key>
