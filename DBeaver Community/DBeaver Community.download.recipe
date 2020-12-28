@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Dialpad.</string>
+	<string>Downloads the latest version of DBeaver Community.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Dialpad</string>
+	<string>com.skyslope.it_dept.download.DBeaverCommunity</string>
 	<key>Input</key>
 	<dict>
+		<key>APP_FILENAME</key>
+		<string>DBeaver</string>
 		<key>NAME</key>
-		<string>Dialpad</string>
+		<string>DBeaver Community</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -23,7 +25,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://storage.googleapis.com/dialpad_native/osx/Dialpad.dmg</string>
+				<string>https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -36,9 +38,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%/Dialpad.app</string>
+				<string>%pathname%/DBeaver.app</string>
 				<key>requirement</key>
-				<string>identifier "com.electron.dialpad" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "9V29MQSZ9M"</string>
+				<string>identifier "org.jkiss.dbeaver.core.product" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "42B6MDKMW8"</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -47,7 +49,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/Dialpad.app/Contents/Info.plist</string>
+				<string>%pathname%/DBeaver.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>

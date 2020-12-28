@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Dialpad.</string>
+	<string>Downloads the latest version of Loom.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Dialpad</string>
+	<string>com.skyslope.it_dept.download.Loom</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Dialpad</string>
+		<string>Loom</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://storage.googleapis.com/dialpad_native/osx/Dialpad.dmg</string>
+				<string>https://cdn.loom.com/desktop-packages/Loom-0.64.1.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -36,9 +36,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%/Dialpad.app</string>
+				<string>%pathname%/Loom.app</string>
 				<key>requirement</key>
-				<string>identifier "com.electron.dialpad" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "9V29MQSZ9M"</string>
+				<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -47,7 +47,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/Dialpad.app/Contents/Info.plist</string>
+				<string>%pathname%/Loom.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>

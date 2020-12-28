@@ -5,27 +5,39 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Dialpad and imports it into Munki.</string>
+	<string>Downloads the latest version of zoom.us and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.munki.Dialpad</string>
+	<string>com.skyslope.it_dept.bitbucket.munki.zoom.us</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Dialpad</string>
+		<string>zoom.us</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>airhost.app</string>
+				<string>CptHost.app</string>
+				<string>caphost.app</string>
+				<string>zoom.us.app</string>
+				<string>Transcode.app</string>
+				<string>ZoomUninstaller.app</string>
+				<string>ZMScreenshot.app</string>
+				<string>ZoomPhone.app</string>
+				<string>aomhost.app</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Use your iPhone's camera without anyone else knowing.</string>
+			<string>Cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.</string>
 			<key>developer</key>
-			<string>Dialpad, Inc.</string>
+			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
-			<string>Dialpad</string>
+			<string>zoom.us</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +47,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Dialpad</string>
+	<string>com.skyslope.it_dept.bitbucket.download.zoom.us</string>
 	<key>Process</key>
 	<array>
 		<dict>

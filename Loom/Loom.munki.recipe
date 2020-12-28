@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Dialpad and imports it into Munki.</string>
+	<string>Downloads the latest version of Loom and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.munki.Dialpad</string>
+	<string>com.skyslope.it_dept.munki.Loom</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Dialpad</string>
+		<string>Loom</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,11 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Use your iPhone's camera without anyone else knowing.</string>
+			<string>Cloud syncing photo library utility.</string>
 			<key>developer</key>
-			<string>Dialpad, Inc.</string>
+			<string>Opentest, Inc.</string>
 			<key>display_name</key>
-			<string>Dialpad</string>
+			<string>Loom</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Dialpad</string>
+	<string>com.skyslope.it_dept.download.Loom</string>
 	<key>Process</key>
 	<array>
 		<dict>
