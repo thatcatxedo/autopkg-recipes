@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Google Drive File Stream and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.munki.GoogleDriveFileStream</string>
+	<string>com.github.thatcatxedo.munki.GoogleDriveFileStream</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -46,7 +46,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.download.GoogleDriveFileStream</string>
+	<string>com.github.thatcatxedo.download.GoogleDriveFileStream</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of zoom.us.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.download.zoom.us</string>
+	<string>com.github.thatcatxedo.download.zoom.us</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

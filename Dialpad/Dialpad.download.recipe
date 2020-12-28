@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Dialpad.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Dialpad</string>
+	<string>com.github.thatcatxedo.download.Dialpad</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

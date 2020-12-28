@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of DBeaver Community.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.install.DBeaverCommunity</string>
+	<string>com.github.thatcatxedo.install.DBeaverCommunity</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.download.DBeaverCommunity</string>
+	<string>com.github.thatcatxedo.download.DBeaverCommunity</string>
 	<key>Process</key>
 	<array>
 		<dict>

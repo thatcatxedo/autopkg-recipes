@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of Cyberduck and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Cyberduck</string>
+    <string>com.github.thatcatxedo.pkg.Cyberduck</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Cyberduck</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Cyberduck</string>
+    <string>com.github.thatcatxedo.download.Cyberduck</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

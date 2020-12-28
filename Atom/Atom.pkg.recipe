@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Atom and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.pkg.Atom</string>
+	<string>com.github.thatcatxedo.pkg.Atom</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

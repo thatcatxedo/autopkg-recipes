@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Cyberduck and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.Cyberduck</string>
+    <string>com.github.thatcatxedo.munki.Cyberduck</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.3.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Cyberduck</string>
+    <string>com.github.thatcatxedo.download.Cyberduck</string>
     <key>Process</key>
     <array>
         <dict>

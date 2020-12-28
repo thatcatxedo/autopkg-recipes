@@ -14,7 +14,7 @@ via Input in an override or via the -k option,
 i.e.: `-k PRERELEASE=yes`
 </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.TextMate2</string>
+    <string>com.github.thatcatxedo.munki.TextMate2</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -51,7 +51,7 @@ i.e.: `-k PRERELEASE=yes`
     <key>MinimumVersion</key>
     <string>0.6.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.TextMate2</string>
+    <string>com.github.thatcatxedo.download.TextMate2</string>
     <key>Process</key>
     <array>
         <dict>

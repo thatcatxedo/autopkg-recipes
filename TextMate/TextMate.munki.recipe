@@ -6,7 +6,7 @@
     <string>Downloads TextMate 1.5.11 and imports into Munki. The URL
 is hardcoded because it's not likely to ever get another update.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.TextMate</string>
+    <string>com.github.thatcatxedo.munki.TextMate</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -41,7 +41,7 @@ is hardcoded because it's not likely to ever get another update.</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.TextMate</string>
+    <string>com.github.thatcatxedo.download.TextMate</string>
     <key>Process</key>
     <array>
         <dict>

@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome enterprise package and renames it based on the Chrome version.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.googlechromepkg</string>
+    <string>com.github.thatcatxedo.pkg.googlechromepkg</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>1.4.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.googlechromepkg</string>
+    <string>com.github.thatcatxedo.download.googlechromepkg</string>
     <key>Process</key>
     <array>
         <dict>

@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Downloads the latest version of the Google Chrome Enterprise Package and imports it into Munki.</string>
 		<key>Identifier</key>
-		<string>com.github.autopkg.munki.googlechromepkg</string>
+		<string>com.github.thatcatxedo.munki.googlechromepkg</string>
 		<key>Input</key>
 		<dict>
 			<key>MUNKI_REPO_SUBDIR</key>
@@ -20,7 +20,7 @@
 				</array>
 				<key>catalogs</key>
 				<array>
-					<string>testing</string>
+					<string>core</string>
 				</array>
 				<key>description</key>
 				<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
@@ -37,7 +37,7 @@
 		<key>MinimumVersion</key>
 		<string>1.4.1</string>
 		<key>ParentRecipe</key>
-		<string>com.github.autopkg.download.googlechromepkg</string>
+		<string>com.github.thatcatxedo.download.googlechromepkg</string>
 		<key>Process</key>
 		<array>
 			<dict>

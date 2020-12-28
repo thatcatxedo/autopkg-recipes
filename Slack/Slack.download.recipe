@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Slack.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.bitbucket.download.Slack</string>
+	<string>com.github.thatcatxedo.bitbucket.download.Slack</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

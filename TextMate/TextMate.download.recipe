@@ -6,7 +6,7 @@
     <string>Downloads TextMate 1.5.11. The URL
 is hardcoded because it's not likely to ever get another update.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.TextMate</string>
+    <string>com.github.thatcatxedo.download.TextMate</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

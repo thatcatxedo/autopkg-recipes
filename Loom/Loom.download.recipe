@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Loom.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.download.Loom</string>
+	<string>com.github.thatcatxedo.download.Loom</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

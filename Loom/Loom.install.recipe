@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of Loom.</string>
 	<key>Identifier</key>
-	<string>com.skyslope.it_dept.install.Loom</string>
+	<string>com.github.thatcatxedo.install.Loom</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.download.Loom</string>
+	<string>com.github.thatcatxedo.download.Loom</string>
 	<key>Process</key>
 	<array>
 		<dict>
