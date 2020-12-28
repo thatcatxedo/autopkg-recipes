@@ -11,3 +11,4 @@ zoom.us.munki
 "DBeaver Community.munki"
 MSDefenderATP.munki
 GoogleChrome.munki.recipe
+MakeCatalogs.munki
