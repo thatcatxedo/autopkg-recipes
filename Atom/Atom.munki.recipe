@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.skyslope.it_dept.download.Atom</string>
+	<string>com.github.thatcatxedo.download.Atom</string>
 	<key>Process</key>
 	<array>
 		<dict>
