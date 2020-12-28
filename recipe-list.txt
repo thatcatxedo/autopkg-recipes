@@ -1,0 +1,13 @@
+TextMate2.munki
+Slack.munki
+Spotify.munki
+Cyberduck.munki
+Dialpad.munki
+Firefox.munki
+GoogleChrome.munki
+VLC.munki
+zoom.us.munki
+"Google Drive File Stream.munki"
+"DBeaver Community.munki"
+MSDefenderATP.munki
+GoogleChrome.munki.recipe
