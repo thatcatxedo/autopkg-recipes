@@ -27,7 +27,7 @@ See the following URL for possible LOCALE values:
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>core</string>
 			</array>
 			<key>description</key>
 			<string>Mozilla Firefox is a free and open source web browser.</string>

@@ -20,7 +20,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>coreOptional</string>
 			</array>
 			<key>description</key>
 			<string>DBeaver - Universal Database Manager and SQL Client. DBeaver is free and open source (GPL) universal database tool for developers and database administrators.</string>

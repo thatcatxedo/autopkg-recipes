@@ -30,7 +30,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>core</string>
 			</array>
 			<key>description</key>
 			<string>Cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.</string>
